@@ -30,13 +30,14 @@ def initial_round
   return sum
 end
 
-def hit?(input)
+def hit?
   prompt_user
   get_user_input
+  
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "wrong command try again"
 end
 
 #####################################################
